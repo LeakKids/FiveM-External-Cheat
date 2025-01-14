@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main\main</Filter>
+    </ClCompile>
+    <ClCompile Include="user_interface.cpp">
+      <Filter>main\main</Filter>
+    </ClCompile>
+    <ClCompile Include="nav_elements.cpp">
+      <Filter>main\main</Filter>
+    </ClCompile>
+    <ClCompile Include="file_operations.cpp" />
+    <ClCompile Include="console_title_animator.cpp" />
+    <ClCompile Include="AntiDebug.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>main\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="get_player.hpp">
+      <Filter>main\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.hpp">
+      <Filter>main\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>main\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>main\add</Filter>
+    </ClInclude>
+    <ClInclude Include="exploit.h">
+      <Filter>main\add</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger.hpp">
+      <Filter>main\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Includes\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Includes\xor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>Includes\ImGui\glf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>Includes\ImGui\glf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\eglew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glxew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Includes\ImGui\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\wglew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="skStr.h" />
+    <ClInclude Include="color.hpp">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="user_interface.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="byte_array.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="nav_elements.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="file_operations.h" />
+    <ClInclude Include="console_title_animator.h" />
+    <ClInclude Include="AntiDebug.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{b594196e-a3a7-48cf-a7c6-909d84ec8e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{2506854b-1764-488f-850e-c5e01452b9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui">
+      <UniqueIdentifier>{6492c638-ac9d-4f76-b55f-0162ca8ddd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\aim">
+      <UniqueIdentifier>{30376c96-82de-449c-a3fa-dd01f398457a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\esp">
+      <UniqueIdentifier>{b1bf9b65-63a4-4b44-965c-61ad75c0b781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\main">
+      <UniqueIdentifier>{1a0511f9-e7f0-40ed-badc-cd3bd2363c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\add">
+      <UniqueIdentifier>{c085f231-34af-4d2b-b83e-9db4b5727869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\vector">
+      <UniqueIdentifier>{b5baf590-32d8-4186-9d94-8c6e123fe1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\xor">
+      <UniqueIdentifier>{0375a84c-50a7-4046-a19f-beed890a866b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui\glf">
+      <UniqueIdentifier>{75e2618b-8260-42e7-b09e-d57cd21a49ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui\gl">
+      <UniqueIdentifier>{4630da04-69c1-4edf-b3fb-8234c4c4b0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui\Image">
+      <UniqueIdentifier>{d21ba159-0264-4364-bd25-d232aca46344}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+</Project>
